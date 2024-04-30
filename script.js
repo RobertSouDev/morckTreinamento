@@ -54,6 +54,8 @@ const container = document.querySelector('#container')
 listaPessoas.forEach(({nome,genero, idade, descricao})=>{
     const divPessoa = document.createElement('div')
 
+    divPessoa.classList.add('pessoa') 
+    
     divPessoa.innerHTML = `
         <h2>${nome}</2>
         <p>${genero} ${idade}</>

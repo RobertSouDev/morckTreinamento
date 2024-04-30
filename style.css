@@ -7,13 +7,21 @@
 #container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
+#container h1 {
+    margin-right: 70%;
+}
 
-#container > div {
+.pessoa {
+    margin: 20px 20px;
     border: 1px solid rgb(99, 228, 120);
+    border-radius: 20px;
+    padding: 20px;
 }
 
 #container > div>  h2 ,p {
-    justify-content: center;
+
 }
