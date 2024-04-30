@@ -12,16 +12,29 @@
 }
 
 #container h1 {
-    margin-right: 70%;
+    margin-right: 60%;
 }
 
 .pessoa {
+    width: 80%;
     margin: 20px 20px;
-    border: 1px solid rgb(99, 228, 120);
+    border: 2px solid rgb(99, 228, 120);
     border-radius: 20px;
     padding: 20px;
 }
 
-#container > div>  h2 ,p {
+.pessoa:hover {
+    background-color: rgb(99, 228, 120) ;
+    margin: 30px 50px;
+}
+.pessoa:hover p {
+    font-size: 14px;
+    color: white;
+    display: block;
 
+}
+
+.pessoa p {
+    color: white;
+    display: none;
 }
