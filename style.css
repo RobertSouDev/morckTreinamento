@@ -1,0 +1,19 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+#container > div {
+    border: 1px solid rgb(99, 228, 120);
+}
+
+#container > div>  h2 ,p {
+    justify-content: center;
+}
