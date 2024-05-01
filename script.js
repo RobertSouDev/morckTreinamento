@@ -106,6 +106,8 @@ listaPessoas.forEach(({img, nome,genero, idade, descricao}, i)=>{
 
         }else{
             conteudo.style.display = "none"
+            divPessoa.style.background = "white"
+
 
        }
         
