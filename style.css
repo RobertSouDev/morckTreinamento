@@ -1,8 +1,14 @@
-* {
+ * {
     padding: 0;
     margin: 0;
     box-sizing:border-box;
 }
+
+/* .accordion-item {
+    border: 3px solid  rgb(26, 224, 115);
+    border-radius: 5px;
+    margin: 20px 20px;
+} */
 
 #container {
     display: flex;
@@ -23,18 +29,9 @@
     padding: 20px;
 }
 
-.pessoa:hover {
-    background-color: rgb(99, 228, 120) ;
-    margin: 30px 50px;
-}
-.pessoa:hover p {
-    font-size: 14px;
-    color: white;
-    display: block;
 
-}
-
-.pessoa p {
-    color: white;
+.conteudo {
     display: none;
 }
+
+
